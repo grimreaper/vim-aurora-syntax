@@ -9,13 +9,18 @@ Installation is supported using [vim-pathogen](https://github.com/tpope/vim-path
 
 ```
 cd ~/.vim/bundle
-git clone https://github.com/kevints/vim-aurora-syntax
+git clone https://github.com/grimreaper/vim-aurora-syntax
 ```
 
 OR with submodules
 
 ```
 cd ~/.vim/bundle
-git submodule add https://github.com/kevints/vim-aurora-syntax
+git submodule add https://github.com/grimreaper/vim-aurora-syntax
 git submodule init
+```
+
+OR with Vundle
+```
+Plugin 'grimreaper/vim-aurora-syntax.git'
 ```
